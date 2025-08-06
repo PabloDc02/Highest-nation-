@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.dark-theme {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  padding-bottom: 60px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.top-icons img {
+  width: 24px;
+  margin-left: 15px;
+}
+
+.stories {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  border-bottom: 1px solid #222;
+}
+
+.story {
+  margin-right: 15px;
+  text-align: center;
+  color: white;
+}
+
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #c13584;
+}
+
+.story p {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.feed {
+  padding: 10px 0;
+}
+
+.post {
+  background-color: #111;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-user {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-actions img {
+  margin-right: 15px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.save-icon {
+  margin-left: auto;
+}
+
+.caption {
+  padding: 0 10px 10px 10px;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid #222;
+}
+
+.bottom-nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-profile {
+  border-radius: 50%;
+}
